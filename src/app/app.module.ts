@@ -19,8 +19,11 @@ import { JwtInterceptor } from "./core/interceptor/jwt.interceptor";
 import { LocationStrategy, HashLocationStrategy } from "@angular/common";
 import { TopbarComponent } from "./layout/topbar/topbar.component";
 import { MatmenuComponent } from "./layout/matmenu/matmenu.component";
+import { MatToolbarModule } from "@angular/material/toolbar";
 
 import { MatMenuModule } from '@angular/material/menu';
+import { MatdynamicmenuComponent } from "./layout/matdynamicmenu/matdynamicmenu.component";
+import { MatdynamicsubmenuComponent } from "./layout/matdynamicmenu/matdynamicsubmenu/matdynamicsubmenu.component";
 
 import {
   PerfectScrollbarModule,
@@ -56,6 +59,9 @@ export function createTranslateLoader(http: HttpClient): any {
         MainLayoutComponent,
         TopbarComponent,
         MatmenuComponent,
+        MatdynamicmenuComponent,
+        MatdynamicsubmenuComponent,
+        
 
     ],
     imports: [
@@ -76,6 +82,7 @@ export function createTranslateLoader(http: HttpClient): any {
         CoreModule,
         SharedModule,
         MatMenuModule,
+        MatToolbarModule
     ],
     providers: [
         { provide: LocationStrategy, useClass: HashLocationStrategy },
