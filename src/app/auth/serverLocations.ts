@@ -10,7 +10,7 @@ export class serverLocations {
        this.apiServerAddress = 'http://localhost:8080/';
        
     } else if (window.location.hostname === '192.168.5.100') {
-      // Server Added
+      // Server Added Buvana
       this.apiServerAddress = 'http://192.168.5.100:8080/bitutech/';
       
     } 

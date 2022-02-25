@@ -89,7 +89,7 @@ export class MatdynamicmenuComponent {
         {
           displayName: 'Feedback',
           iconName: 'feedback',
-          route: 'feedback'
+          route: '/admin/employees/allEmployees'
         }
       ]
     },
@@ -173,7 +173,7 @@ export class MatdynamicmenuComponent {
         {
           displayName: 'Feedback',
           iconName: 'feedback',
-          route: 'feedback'
+          route: '/admin/employees/allEmployees'
         }
       ]
     },
@@ -257,7 +257,7 @@ export class MatdynamicmenuComponent {
         {
           displayName: 'Feedback',
           iconName: 'feedback',
-          route: 'feedback'
+          route: '/admin/employees/allEmployees'
         }
       ]
     },
@@ -342,7 +342,7 @@ export class MatdynamicmenuComponent {
         {
           displayName: 'Feedback',
           iconName: 'feedback',
-          route: 'feedback'
+          route: '/admin/employees/allEmployees'
         }
       ]
     }
