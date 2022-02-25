@@ -6,7 +6,7 @@ import {NavItem} from './nav-items';
   templateUrl: 'matdynamicmenu.component.html',
   styleUrls: ['matdynamicmenu.component.scss'],
   encapsulation: ViewEncapsulation.None
-})
+}) 
 export class MatdynamicmenuComponent { 
   navItems: NavItem[] = [
     {
