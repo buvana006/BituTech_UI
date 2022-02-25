@@ -10,7 +10,7 @@ import {NavItem} from './nav-items';
 export class MatdynamicmenuComponent { 
   navItems: NavItem[] = [
     {
-      displayName: 'DevFestFL',
+      displayName: 'DevFestFLtest',
       iconName: 'close',
       children: [
         {
